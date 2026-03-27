@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+
+  <ItemGroup>
+    <Filter Include="src\entry">
+      <UniqueIdentifier>{20000000-0000-0000-0000-000000000001}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\callbacks">
+      <UniqueIdentifier>{20000000-0000-0000-0000-000000000002}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\ipc">
+      <UniqueIdentifier>{20000000-0000-0000-0000-000000000003}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\shared">
+      <UniqueIdentifier>{20000000-0000-0000-0000-000000000004}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ClCompile Include="src\entry\DriverEntry.cpp">
+      <Filter>src\entry</Filter>
+    </ClCompile>
+    <ClCompile Include="src\callbacks\ObCallbacks.cpp">
+      <Filter>src\callbacks</Filter>
+    </ClCompile>
+    <ClCompile Include="src\callbacks\ProcessNotify.cpp">
+      <Filter>src\callbacks</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ipc\DeviceControl.cpp">
+      <Filter>src\ipc</Filter>
+    </ClCompile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ClInclude Include="src\callbacks\ObCallbacks.hpp">
+      <Filter>src\callbacks</Filter>
+    </ClInclude>
+    <ClInclude Include="src\callbacks\ProcessNotify.hpp">
+      <Filter>src\callbacks</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ipc\DeviceControl.hpp">
+      <Filter>src\ipc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\shared\KernelTypes.hpp">
+      <Filter>src\shared</Filter>
+    </ClInclude>
+  </ItemGroup>
+
+</Project>

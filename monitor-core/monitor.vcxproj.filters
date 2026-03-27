@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{10000000-0000-0000-0000-000000000001}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\console">
+      <UniqueIdentifier>{10000000-0000-0000-0000-000000000002}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\core">
+      <UniqueIdentifier>{10000000-0000-0000-0000-000000000003}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\domain">
+      <UniqueIdentifier>{10000000-0000-0000-0000-000000000004}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\ipc">
+      <UniqueIdentifier>{10000000-0000-0000-0000-000000000005}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\system">
+      <UniqueIdentifier>{10000000-0000-0000-0000-000000000006}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ClCompile Include="src\pch.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\console\Console.cpp">
+      <Filter>src\console</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\Hooks.cpp">
+      <Filter>src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\NtHooks.cpp">
+      <Filter>src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\domain\SyscallMap.cpp">
+      <Filter>src\domain</Filter>
+    </ClCompile>
+    <ClCompile Include="src\domain\PciScanner.cpp">
+      <Filter>src\domain</Filter>
+    </ClCompile>
+    <ClCompile Include="src\domain\SignatureVerifier.cpp">
+      <Filter>src\domain</Filter>
+    </ClCompile>
+    <ClCompile Include="src\domain\DmaDetector.cpp">
+      <Filter>src\domain</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\DriverLoader.cpp">
+      <Filter>src\system</Filter>
+    </ClCompile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ClInclude Include="src\pch.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\console\Console.hpp">
+      <Filter>src\console</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\HookGuard.hpp">
+      <Filter>src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\EventTypes.hpp">
+      <Filter>src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\Hooks.hpp">
+      <Filter>src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\NtHooks.hpp">
+      <Filter>src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\domain\NtTypes.hpp">
+      <Filter>src\domain</Filter>
+    </ClInclude>
+    <ClInclude Include="src\domain\SyscallMap.hpp">
+      <Filter>src\domain</Filter>
+    </ClInclude>
+    <ClInclude Include="src\domain\PciScanner.hpp">
+      <Filter>src\domain</Filter>
+    </ClInclude>
+    <ClInclude Include="src\domain\SignatureVerifier.hpp">
+      <Filter>src\domain</Filter>
+    </ClInclude>
+    <ClInclude Include="src\domain\DmaDetector.hpp">
+      <Filter>src\domain</Filter>
+    </ClInclude>
+    <ClInclude Include="src\domain\TrustedProcesses.hpp">
+      <Filter>src\domain</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ipc\PipeClient.hpp">
+      <Filter>src\ipc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\ProcessCache.hpp">
+      <Filter>src\system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\DriverLoader.hpp">
+      <Filter>src\system</Filter>
+    </ClInclude>
+  </ItemGroup>
+
+</Project>

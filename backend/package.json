@@ -1,0 +1,30 @@
+{
+  "name": "proc-monitor-backend",
+  "version": "1.0.0",
+  "packageManager": "pnpm@9.1.0",
+  "scripts": {
+    "build": "nest build",
+    "start": "nest start",
+    "start:dev": "nest start --watch",
+    "start:prod": "node dist/main",
+    "lint": "eslint \"{src,test}/**/*.ts\" --fix"
+  },
+  "dependencies": {
+    "@nestjs/common": "^10.3.0",
+    "@nestjs/core": "^10.3.0",
+    "@nestjs/cqrs": "^10.2.7",
+    "@nestjs/event-emitter": "^2.0.4",
+    "@nestjs/platform-express": "^10.3.0",
+    "@nestjs/websockets": "^10.3.0",
+    "@nestjs/platform-socket.io": "^10.3.0",
+    "reflect-metadata": "^0.2.1",
+    "rxjs": "^7.8.1",
+    "socket.io": "^4.7.4"
+  },
+  "devDependencies": {
+    "@nestjs/cli": "^10.3.0",
+    "@nestjs/schematics": "^10.1.0",
+    "@types/node": "^20.11.0",
+    "typescript": "^5.3.3"
+  }
+}
